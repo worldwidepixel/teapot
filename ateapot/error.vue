@@ -86,7 +86,7 @@
 
 </style>
 
-<script>
+<script lang="ts">
 export default {
     props: ['error'],
 };

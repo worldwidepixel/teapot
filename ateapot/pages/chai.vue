@@ -16,7 +16,7 @@
     async setup() {
     if (true) {
       throw createError({
-        statusCode: 503,
+        statusCode: 500,
         fatal: false,
       })
     }

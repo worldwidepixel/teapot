@@ -42,6 +42,7 @@
     display: flex;
     flex-direction: row;
     height: 2rem;
+    width: 2rem;
   }
 
   .userImg {

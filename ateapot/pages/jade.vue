@@ -16,9 +16,9 @@
     async setup() {
     if (true) {
       throw createError({
-        statusCode: 500,
+        statusCode: 507,
         fatal: false,
-        message: "Internal Server Error (Chai not supported)",
+        message: "Insufficient Storage",
       })
     }
   }  }

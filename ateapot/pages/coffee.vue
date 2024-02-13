@@ -18,6 +18,7 @@
       throw createError({
         statusCode: 503,
         fatal: false,
+        message: "Service Unavailable (Temporarily out of coffee)",
       })
     }
   }  }
